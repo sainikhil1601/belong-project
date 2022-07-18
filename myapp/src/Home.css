@@ -1,0 +1,391 @@
+img {
+  height: auto;
+  width: 100%;
+  vertical-align: middle;
+}
+i{
+  width: 2000px;
+  height: 600px;
+}
+.card{
+  margin:200px ;
+  width:30rem ;
+  display:flex;
+  
+}
+.card-item{
+  margin:200px ;
+  width:30rem ;
+  display: grid;
+  grid-template-columns: auto auto ;
+}
+
+.bi bi-person-fill{
+  width: 100px;
+  HEIGHT:100px;
+}
+.grid-container{
+  
+  background-color:rgb(245, 243, 243);
+  padding: 100px;
+  margin: 200px;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: auto ;
+
+}
+.grid-container >div {
+  margin: 10px;
+  background-color: whitesmoke;
+  padding: 1px;
+  border-radius: 25px;
+}
+.diploma{
+  margin-top: 20px;
+}
+.diplomacoursedur{
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+#boc{
+  height: 700px;
+  width: 100%;
+}
+#boc-item{
+  
+  height:70%;
+  margin-top: 8%;
+  justify-content: space-between;
+  column-gap: 10px;
+  display: flex;
+  
+}
+#boc-item1{
+  
+  height:100%;
+  float: left;
+  border-radius: 30px;
+  border-color: rgb(229, 231, 231) ;
+  border-style: solid ;
+  border-width: 2px;  
+}
+#boc-item2{
+  
+  height:100%;
+  float: right;
+  border-radius: 30px;
+  border-color: rgb(229, 231, 231) ;
+  border-style: solid ;
+  border-width: 2px; 
+}
+.image{
+  width: 60%;
+  height: 45%;
+  margin-top: 5%;
+}
+#lb1{
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background-color: rgb(12, 125, 238);
+}
+#lb2{
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: rgb(244, 24, 219);
+}
+#tut{
+  height: 1000px;
+  width: 100%;
+  
+}
+#langcourse{
+  height: 600px;
+  width: 100%;
+  
+}
+#courses{
+  height: 1200px;
+  width: 100%;
+  background-color: rgb(225, 244, 238);
+  
+  padding: 50px;
+}
+#tut-item{
+  
+  height:70%;
+  margin-top: 8%;
+  justify-content: space-between;
+  column-gap: 10px;
+  display: flex;
+  
+  
+}
+#langcourse-item{
+  height: 70%;
+  
+  border-radius: 30px;
+  border-color: rgb(229, 231, 231) ;
+  border-style: solid ;
+  border-width: 2px; 
+
+}
+#tut-item1{
+  
+  height:100%;
+  float: left;
+  border-radius: 30px;
+  border-color: rgb(229, 231, 231) ;
+  border-style: solid ;
+  border-width: 2px;  
+}
+#course-item{
+  height: 70%;
+  width: 200px;
+  
+  
+}
+#course-item1{
+  display: flex;
+  
+  
+}
+
+#tut-item2{
+  
+  height:100%;
+  float: left;
+  border-radius: 30px;
+  border-color: rgb(229, 231, 231) ;
+  border-style: solid ;
+  border-width: 2px;  
+}
+#tut-item3{
+  
+  height:100%;
+  float: left;
+  border-radius: 30px;
+  border-color: rgb(229, 231, 231) ;
+  border-style: solid ;
+  border-width: 2px;  
+}
+.flowerimg{
+  height: 300px;
+  width:300px;
+  
+
+}
+.rate{
+  position: absolute;
+  margin: 140px;
+  color: yellow;
+
+  font-size:xx-large;
+
+  
+
+}
+.rate1{
+  position: absolute;
+  margin: 115px;
+  color: yellow;
+
+  font-size:xx-large;
+
+  
+
+}
+
+.dipimage{
+  width: 20%;
+  height: 25%;
+  margin-top: 5%;
+}
+.workingman{
+  height: 500px;
+  width: 300px;
+  display: flex;
+  
+}
+.box{
+  width: 300px;
+  height: 120px;
+  
+  
+  margin: 15px;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  border-color: rgb(35, 219, 219) ;
+  border-style: solid ;
+  border-width: 2px;  
+  
+
+
+}
+#boxes{
+  display: flex;
+  flex-direction: column;
+  float: right;
+  
+  
+}
+
+.ad{
+  display: flex;
+}
+.wss{
+  display: flex;
+}
+.women{
+  height: 450px;
+  width: 80%;
+  display: flex;
+  
+}
+#video{
+  height: 300px;
+  width: 100%;
+}
+#reviews{
+  height: 700px;
+  width: 100%;
+  background-color: rgb(229, 243, 249);
+  
+  padding: 50px;
+}
+.reviewcontainer{
+  display: flex;
+  justify-content: space-between;
+}
+#review1{
+  background-color: white;
+  height: 400px;
+  width: 400px;
+  
+  padding:80px;
+  font-size: x-large;
+  border-bottom: 2px solid red;
+  
+}
+#review2{
+  background-color: white;
+  height: 500px;
+  width: 400px;
+  
+  padding:80px;
+  font-size: x-large;
+  border-bottom: 2px solid blue;
+}
+#review3{
+  background-color: white;
+  height: 400px;
+  width: 400px;
+  
+  padding:80px;
+  font-size: x-large;
+  border-bottom: 2px solid green;
+}
+.welcome-div{
+  height: 500px;
+  width: 100%;
+  background: rgb(61, 102, 227);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head1,.head2{
+  font-size: 4.5em;
+  font-weight: bold;
+  color: white;
+  line-height: 70px;
+}
+.head3{
+  color: white;
+  font-size: 1.2em;
+}
+.welcome-div-2{
+  height: 250px;
+  width: 100%;
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.welcome-div-2 div{
+  height: 100%;
+  width: 20%;
+
+}
+.icons{
+  margin-top: 50px;
+  height: 25%;
+  width: auto;
+}
+.regstu-1{
+  font-weight: 100;
+  line-height: 1px;
+  font-size: 2.5em;
+}
+
+.regstu-2{
+  font-weight: bold;
+  font-family: arial;
+  font-size: 1em;
+  line-height: 1px;
+}
+#bg{
+  
+  background-image:url('./bg.png');
+  background-repeat: repeat;
+}
+#reimg{
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin: 10px;
+  justify-content: center;
+  border-radius: 100%;
+  
+}
+#footer{
+  background-color: black;
+  height: 400px;
+  width: 100%;
+  padding: 30px;
+  
+}
+.footercontainer{
+  
+    display: flex;
+    justify-content: space-between;
+  
+}
+#address{
+  height: 300px;
+  width:300px;
+  color: white;
+
+}
+#contact{
+  height: 300px;
+  width: 300px;
+  color: white;
+  
+}
+#contactlink{
+  height: 300px;
+  width: 300px;
+
+  color: white;
+
+}
+#social{
+  height: 300px;
+  width: 300px;
+  color: white;
+
+
+}

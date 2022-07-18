@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+}
+
+.home,
+.courses,
+.languagecourses,
+.tutorials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  font-size: 4rem;
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  text-shadow: 4px 4px 4px #fff;
+}
+.App {
+  text-align: center;
+}
+.Head{
+  background-color: darkblue;
+  padding: 1px;
+
+
+}
+p{
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+}
+.navigation{
+  float: right;
+  flex-direction: column;
+  
+}
+ul{
+  list-style: none;
+  float: left;
+}
+li{
+  float: left;
+}
