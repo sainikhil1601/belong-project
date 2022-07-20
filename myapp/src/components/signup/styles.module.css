@@ -22,7 +22,7 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background-color: #3bb19b;
+	background-image: url('/public/women.jpeg');
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
 }
@@ -83,7 +83,7 @@
 	border: none;
 	outline: none;
 	padding: 12px 0;
-	background-color: white;
+	background-color: #2287d4;
 	border-radius: 20px;
 	width: 180px;
 	font-weight: bold;
@@ -92,7 +92,7 @@
 }
 
 .green_btn {
-	background-color: #3bb19b;
+	background-color: #2287d4;
 	color: white;
 	margin: 10px;
 }

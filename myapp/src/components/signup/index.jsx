@@ -42,12 +42,13 @@ const Signup = () => {
 					<h1>Welcome Back</h1>
 					<Link to="/login">
 						<button type="button" className={styles.white_btn}>
-							Sing in
+							Sign in
 						</button>
 					</Link>
 				</div>
 				<div className={styles.right}>
 					<form className={styles.form_container} onSubmit={handleSubmit}>
+						<img src="./logo.png"/>
 						<h1>Create Account</h1>
 						<input
 							type="text"
@@ -87,7 +88,7 @@ const Signup = () => {
 						/>
 						{error && <div className={styles.error_msg}>{error}</div>}
 						<button type="submit" className={styles.green_btn}>
-							Sing Up
+							Sign Up
 						</button>
 					</form>
 				</div>
