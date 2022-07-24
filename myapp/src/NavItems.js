@@ -13,8 +13,8 @@ export const NavItems = [
   },
   {
     id: 3,
-    title: "Languagecourses",
-    path: "./languagecourses",
+    title: "Languagecourse",
+    path: "./languagecourse",
     cName: "nav-item",
   },
   {

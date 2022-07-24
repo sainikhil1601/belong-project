@@ -1,9 +1,14 @@
 import React from "react";
+import Nav from "./Nav";
+import Mailer from "./component/mailer";
+import Footer from "./footer";
 
 function Tutorials() {
   return (
     <div>
-      <h1 className="Tutorials">Tutorials</h1>
+      <Nav/>
+      <Mailer/>
+      <Footer/>
     </div>
   );
 }

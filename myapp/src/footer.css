@@ -1,0 +1,39 @@
+#footer{
+  background-color: black;
+  height: 400px;
+  width: 100%;
+  padding: 30px;
+  
+}
+.footercontainer{
+  
+    display: flex;
+    justify-content: space-between;
+  
+}
+#address{
+  height: 300px;
+  width:300px;
+  color: white;
+
+}
+#contact{
+  height: 300px;
+  width: 300px;
+  color: white;
+  
+}
+#contactlink{
+  height: 300px;
+  width: 300px;
+
+  color: white;
+
+}
+#social{
+  height: 300px;
+  width: 300px;
+  color: white;
+
+
+}
